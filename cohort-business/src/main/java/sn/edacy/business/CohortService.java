@@ -12,6 +12,8 @@ import sn.edacy.model.Talent;
 
 @Stateless
 public class CohortService {
+private String nom="Nana N'GUISSAN";
+
 
 	@PersistenceContext
 	private EntityManager entityManager;
@@ -26,5 +28,7 @@ public class CohortService {
 	public List<Cohort> getAllCohort() {
 		Query query =  entityManager.createQuery("select c from Cohort c");
 		return query.getResultList();
-	}
+	
+
+}
 }

@@ -68,7 +68,7 @@
 			<configuration>
 				<hostname>127.0.0.1</hostname>
 				<username>admin</username>
-				<password>.lachance.123</password>
+				<password>admin</password>
 			</configuration>
 		</plugin>
     </plugins>
